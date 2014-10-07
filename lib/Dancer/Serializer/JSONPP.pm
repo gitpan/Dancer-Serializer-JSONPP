@@ -3,7 +3,7 @@ package Dancer::Serializer::JSONPP;
 use strict;
 use warnings;
 use 5.008_005;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Dancer::Config 'setting';
 use Dancer::SharedData;
@@ -90,7 +90,7 @@ information and a full list of configuration settings. You can add extra
 settings to the B<engines> configuration to turn these on. For example:
 
     engines:
-        JSON:
+        JSONPP:
             allow_blessed:   '1'
             canonical:       '1'
             convert_blessed: '1'

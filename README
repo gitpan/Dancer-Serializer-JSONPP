@@ -24,7 +24,7 @@ DESCRIPTION
     example:
 
         engines:
-            JSON:
+            JSONPP:
                 allow_blessed:   '1'
                 canonical:       '1'
                 convert_blessed: '1'
